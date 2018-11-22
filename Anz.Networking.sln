@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anz.Networking", "Anz.Networking\Anz.Networking.csproj", "{118F9030-6934-4C9A-9E86-9B64A00890FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anz.Networking.Test", "Anz.Networking.Test\Anz.Networking.Test.csproj", "{2967D517-3ABF-4A28-8DDE-3830B480D6BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118F9030-6934-4C9A-9E86-9B64A00890FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118F9030-6934-4C9A-9E86-9B64A00890FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118F9030-6934-4C9A-9E86-9B64A00890FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118F9030-6934-4C9A-9E86-9B64A00890FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2967D517-3ABF-4A28-8DDE-3830B480D6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2967D517-3ABF-4A28-8DDE-3830B480D6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2967D517-3ABF-4A28-8DDE-3830B480D6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2967D517-3ABF-4A28-8DDE-3830B480D6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B1C9135-9301-4E24-9968-BD528427ADF9}
+	EndGlobalSection
+EndGlobal
