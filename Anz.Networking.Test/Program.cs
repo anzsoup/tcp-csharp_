@@ -42,7 +42,7 @@ namespace Anz.Networking.Test
 			// 누군가 접속했을 때 호출되는 콜백
 			service.SessionCreatedCallback += OnSessionCreated;
 			service.Initialize(10);
-			service.Listen("0.0.0.0", 25526, 10);
+			service.Listen("0.0.0.0", 22277, 10);
 
 			// 소켓 관련 콜백 메소드들은 다른 쓰레드에서 호출되므로
 			// 메인 쓰레드가 종료되지 않게 대기시킨다.
@@ -65,7 +65,7 @@ namespace Anz.Networking.Test
 			{
 				ipAddress = Dns.GetHostAddresses("127.0.0.1")[0];
 			}
-			IPEndPoint endpoint = new IPEndPoint(ipAddress, 25526);
+			IPEndPoint endpoint = new IPEndPoint(ipAddress, 22277);
 			connector.Connect(endpoint);
 
 			// 소켓 관련 콜백 메소드들은 다른 쓰레드에서 호출되므로
