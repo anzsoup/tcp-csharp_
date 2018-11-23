@@ -33,7 +33,8 @@ namespace Anz.Networking
 		{
 			// 소켓 생성
 			_listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-			// 소켓을 닫아도 커널은 즉시 소멸시키지 않고 몇 초간 유지시킨다. (Timewait)
+			// TCP는 소켓을 닫아도 커널은 즉시 소멸시키지 않고 몇 초간 유지시킨다.
+			// (대기하는 것을 Linger 라고 하고, 그 상태를 TIME_WAIT 이라고 한다.)
 			// 이것은 서버를 닫고 얼마 지나지 않아 다시 서버를 열 때 포트 중복으로 인한 문제를 발생시킨다.
 			// 그래서 ReuseAddress 옵션을 true 로 설정해 같은 endpoint 에 소켓을 열어도 에러가 발생하지 않게 한다.
 			_listenSocket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
