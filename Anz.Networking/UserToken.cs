@@ -320,7 +320,11 @@ namespace Anz.Networking
 				if (e.BytesTransferred <= 0 || e.SocketError != SocketError.Success)
 				{
 					// Send가 멎어버리는 문제의 원인이 이 부분. SocketError == Success 라면 재전송을 시도한다.
-					Console.WriteLine(string.Format("Failed to send. error {0}, transferred {1}", e.SocketError, e.BytesTransferred));
+
+					// SocketError == Success, BytesTransferred == 0 인 에러는 자주발생하므로 로그 출력 안함.
+					if (e.BytesTransferred > 0 || e.SocketError != SocketError.Success)
+						Console.WriteLine(string.Format("Failed to send. error {0}, transferred {1}", e.SocketError, e.BytesTransferred));
+					
 					//_sendingList[0] = new ArraySegment<byte>(e.BufferList[0].Array, 0, e.BufferList[0].Array.Length);
 					if (e.SocketError != SocketError.Success) return;
 				}
