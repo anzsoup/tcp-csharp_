@@ -1,4 +1,4 @@
-# Anz.Network
+# ChickenIngot.Networking
 C# TCP Socket Networking Library  
 
 ## About
@@ -7,7 +7,7 @@ C# TCP Socket Networking Library
 - 소스코드는 [FreeNet](https://github.com/sunduk/FreeNet) 과 거의 같고 약간의 기능 추가와 버그 픽스  
 - 패킷 전송 중 에러가 발생하면 전송 루틴이 종료돼서 더 이상 패킷을 전송할 수 없던 문제 해결
 ## Usage
-- Anz.Networking.Test 프로젝트의 예제 소스 참고
+- ChickenIngot.Networking.Test 프로젝트의 예제 소스 참고
 ## Reference
 - [FreeNet](https://github.com/sunduk/FreeNet)  
 
