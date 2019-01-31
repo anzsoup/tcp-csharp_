@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	public class ClientListener
 	{

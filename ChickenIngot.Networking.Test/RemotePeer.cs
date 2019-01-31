@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Anz.Networking.Test
+namespace ChickenIngot.Networking.Test
 {
 	class RemotePeer : IPeer
 	{

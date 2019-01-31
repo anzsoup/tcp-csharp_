@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	/// <summary>
 	/// Endpoint 정보를 받아서 서버에 접속한다.

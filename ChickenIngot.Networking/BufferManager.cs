@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Net.Sockets;
 
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	/// <summary>
 	/// This class creates a single large buffer which can be divided up and assigned to SocketAsyncEventArgs objects for use

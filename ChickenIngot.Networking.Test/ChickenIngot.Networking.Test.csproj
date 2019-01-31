@@ -45,9 +45,9 @@
     <Compile Include="RemotePeer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Anz.Networking\Anz.Networking.csproj">
+    <ProjectReference Include="..\ChickenIngot.Networking\ChickenIngot.Networking.csproj">
       <Project>{118f9030-6934-4c9a-9e86-9b64a00890ff}</Project>
-      <Name>Anz.Networking</Name>
+      <Name>ChickenIngot.Networking</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

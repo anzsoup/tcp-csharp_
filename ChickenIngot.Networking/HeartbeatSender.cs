@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	public class HeartbeatSender
 	{

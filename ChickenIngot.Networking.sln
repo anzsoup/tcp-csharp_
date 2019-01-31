@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anz.Networking", "Anz.Networking\Anz.Networking.csproj", "{118F9030-6934-4C9A-9E86-9B64A00890FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenIngot.Networking", "ChickenIngot.Networking\ChickenIngot.Networking.csproj", "{118F9030-6934-4C9A-9E86-9B64A00890FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anz.Networking.Test", "Anz.Networking.Test\Anz.Networking.Test.csproj", "{2967D517-3ABF-4A28-8DDE-3830B480D6BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenIngot.Networking.Test", "ChickenIngot.Networking.Test\ChickenIngot.Networking.Test.csproj", "{2967D517-3ABF-4A28-8DDE-3830B480D6BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	public class ConsoleHelper
 	{

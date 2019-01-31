@@ -7,8 +7,8 @@
     <ProjectGuid>{118F9030-6934-4C9A-9E86-9B64A00890FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Anz.Networking</RootNamespace>
-    <AssemblyName>Anz.Networking</AssemblyName>
+    <RootNamespace>ChickenIngot.Networking</RootNamespace>
+    <AssemblyName>ChickenIngot.Networking</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

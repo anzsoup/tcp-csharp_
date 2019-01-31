@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	/// <summary>
 	/// 수신된 패킷을 받아 로직 스레드에서 분배하는 역할을 담당한다.

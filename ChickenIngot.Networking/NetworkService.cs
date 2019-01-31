@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Sockets;
 
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	public class NetworkService
 	{

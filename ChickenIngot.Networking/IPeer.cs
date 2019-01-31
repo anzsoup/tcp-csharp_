@@ -1,5 +1,5 @@
 ﻿
-namespace Anz.Networking
+namespace ChickenIngot.Networking
 {
 	/// <summary>
 	/// 서버와 클라이언트에서 공통으로 사용하는 세션 객체.
