@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2967D517-3ABF-4A28-8DDE-3830B480D6BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Anz.Networking.Test</RootNamespace>
-    <AssemblyName>Anz.Networking.Test</AssemblyName>
+    <RootNamespace>ChickenIngot.Networking.Test</RootNamespace>
+    <AssemblyName>ChickenIngot.Networking.Test</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
