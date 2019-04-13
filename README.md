@@ -1,5 +1,5 @@
 # ChickenIngot.Networking
-C# TCP Socket Networking Library  
+C# Async TCP Socket Networking Library  
 
 ## About
 - 간단한 접속 처리, 패킷 송수신 처리  
