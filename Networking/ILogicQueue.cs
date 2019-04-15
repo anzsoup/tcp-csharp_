@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	public interface ILogicQueue
 	{

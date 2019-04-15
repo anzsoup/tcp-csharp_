@@ -1,5 +1,5 @@
 ﻿
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	public struct Const<T>
 	{

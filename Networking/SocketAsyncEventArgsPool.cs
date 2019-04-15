@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Sockets;
 
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	// Represents a collection of reusable SocketAsyncEventArgs objects
 	public class SocketAsyncEventArgsPool

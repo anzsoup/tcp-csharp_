@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	/// <summary>
 	/// byte[] 버퍼를 참조로 보관하여 PopXXX 메소드 호출 순서대로 데이터 변환을 수행한다.

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2967D517-3ABF-4A28-8DDE-3830B480D6BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ChickenIngot.Networking.Test</RootNamespace>
-    <AssemblyName>ChickenIngot.Networking.Test</AssemblyName>
+    <RootNamespace>Networking.Test</RootNamespace>
+    <AssemblyName>Networking.Test</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -45,9 +45,9 @@
     <Compile Include="RemotePeer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ChickenIngot.Networking\ChickenIngot.Networking.csproj">
+    <ProjectReference Include="..\Networking\Networking.csproj">
       <Project>{118f9030-6934-4c9a-9e86-9b64a00890ff}</Project>
-      <Name>ChickenIngot.Networking</Name>
+      <Name>Networking</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

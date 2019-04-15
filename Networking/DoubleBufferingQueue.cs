@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	/// <summary>
 	/// 두개의 큐를 교체해가며 활용한다.

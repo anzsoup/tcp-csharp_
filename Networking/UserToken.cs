@@ -6,7 +6,7 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	public enum TokenState
 	{

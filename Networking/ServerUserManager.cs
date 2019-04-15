@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	/// <summary>
 	/// 현재 접속중인 전체 유저를 관리하는 클래스.

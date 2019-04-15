@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChickenIngot.Networking
+namespace Networking
 {
 	class Defines
 	{

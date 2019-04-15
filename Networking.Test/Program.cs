@@ -2,7 +2,7 @@
 using System.Net;
 using System.Threading;
 
-namespace ChickenIngot.Networking.Test
+namespace Networking.Test
 {
 	class Program
 	{
