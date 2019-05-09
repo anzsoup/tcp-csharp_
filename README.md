@@ -1,4 +1,4 @@
-# ChickenIngot.Networking
+# tcp-csharp
 C# Async TCP Socket Networking Library  
 
 ## About
